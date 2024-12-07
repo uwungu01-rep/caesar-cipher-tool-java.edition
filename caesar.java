@@ -1,4 +1,4 @@
-package cct; //not China communist party
+package cct;
 import java.util.ArrayList;
 import java.util.List;
 

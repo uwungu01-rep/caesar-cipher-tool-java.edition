@@ -1,4 +1,4 @@
-package cct; //not China communist party
+package cct;
 
 public class misc {
 	public static boolean isInt(String input) {
