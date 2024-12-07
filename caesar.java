@@ -19,10 +19,10 @@ public class caesar {
 		String output = ""; 
 		for(String i : user_input) {
 			if(alphabet.contains(i)) {
-				output += shifted.get(list.indexOf(i, alphabet));
+				output += shifted.get(alphabet.indexOf(i));
 			}
 			else if(upper_alphabet.contains(i)) {
-				output += shifted_upper.get(list.indexOf(i, upper_alphabet));
+				output += shifted_upper.get(upper_alphabet.indexOf(i));
 			}
 			else {
 				output += i;
@@ -35,10 +35,10 @@ public class caesar {
 		String output = ""; 
 		for(String i : user_input) {
 			if(shifted.contains(i)) {
-				output += alphabet.get(list.indexOf(i, shifted));
+				output += alphabet.get(shifted.indexOf(i));
 			}
 			else if(shifted_upper.contains(i)) {
-				output += upper_alphabet.get(list.indexOf(i, shifted_upper));
+				output += upper_alphabet.get(shifted_upper.indexOf(i));
 			}
 			else {
 				output += i;
