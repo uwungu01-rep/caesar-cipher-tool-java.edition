@@ -12,14 +12,9 @@ public class misc {
 	}
 	
 	public static int Algorithm(int shift) {
-	    int temp = shift;
-	    if(temp >= 0) {
-	        temp = temp % 26;
-	        return temp;
+	    if(shift >= 0) {
+	        return shift % 26;
 	    }
-	    while(temp < 0) {
-	        temp = (26 + temp) % 26;
-	    }
-	    return temp;
+	    return shift % 26 + 26;
 	}
 }
