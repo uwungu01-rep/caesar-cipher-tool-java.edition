@@ -15,7 +15,7 @@ public class caesar {
 	    return output;
 	}
 	
-	public static String Encipher(List<String> alphabet, List<String> upper_alphabet, List<String> shifted, List<String> shifted_upper, String[] user_input) {
+	public static String Caesar(List<String> alphabet, List<String> upper_alphabet, List<String> shifted, List<String> shifted_upper, List<String> user_input) {
 		String output = ""; 
 		for(String i : user_input) {
 			if(alphabet.contains(i)) {
@@ -23,22 +23,6 @@ public class caesar {
 			}
 			else if(upper_alphabet.contains(i)) {
 				output += shifted_upper.get(upper_alphabet.indexOf(i));
-			}
-			else {
-				output += i;
-			}
-		}
-		return output;
-	}
-	
-	public static String Decipher(List<String> alphabet, List<String> upper_alphabet, List<String> shifted, List<String> shifted_upper, String[] user_input) {
-		String output = ""; 
-		for(String i : user_input) {
-			if(shifted.contains(i)) {
-				output += alphabet.get(shifted.indexOf(i));
-			}
-			else if(shifted_upper.contains(i)) {
-				output += upper_alphabet.get(shifted_upper.indexOf(i));
 			}
 			else {
 				output += i;
