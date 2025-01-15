@@ -28,8 +28,9 @@ A simple program use to Encipher/Decipher text to/from Caesar Cipher. And yes, t
 ```
 java -jar cct.jar
 ```
-  </li>
-  </ol>
+‎ 
+      </li>
+    </ol>
   </li>
   <li>
     On other platforms: Navigate to the folder contains the cct.jar file and open the Terminal there then run:
