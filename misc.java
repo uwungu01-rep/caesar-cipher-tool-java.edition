@@ -3,7 +3,7 @@ package cct;
 public class misc {
 	public static boolean isInt(String input) {
 		try {
-			int temp = Integer.parseInt(input);
+			Long.parseLong(input);
 			return true;
 		}
 		catch(NumberFormatException e) {
@@ -11,10 +11,10 @@ public class misc {
 		}
 	}
 	
-	public static int Algorithm(int shift) {
+	public static short Algorithm(long shift) {
 	    if(shift >= 0) {
-	        return shift % 26;
+	        return (short) (shift % 26);
 	    }
-	    return shift % 26 + 26;
+	    return (short) (shift % 26 + 26);
 	}
 }
