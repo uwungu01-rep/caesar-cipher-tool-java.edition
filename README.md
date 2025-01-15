@@ -11,10 +11,10 @@ A simple program use to Encipher/Decipher text to/from Caesar Cipher. And yes, t
 ## Installation
 <ol type="1">
   <li>
-    Install Java 21 from [here](https://www.oracle.com/vn/java/technologies/downloads/#jdk21). (Ignore if you already have Java 21)
+    Install Java 21 from <a href="https://www.oracle.com/vn/java/technologies/downloads/#jdk21">here</a>. (Ignore if you already have Java 21)
   </li>
   <li>
-    Grab the [release](https://github.com/uwungu01-rep/caesar-cipher-tool-java.edition/releases/tag/tag) .zip and decompress it (not required, but recommended).
+    Grab the <a href="https://github.com/uwungu01-rep/caesar-cipher-tool-java.edition/releases/tag/tag">release</a> .zip and decompress it (not required, but recommended).
   </li>
   <li>
     On Windows:
